@@ -54,6 +54,6 @@ Our gratitude to these stakeholders as well:
 - All of the Fifth Rows & Interest Groups in SUTD
 - All of the Laboratories & Research Groups in SUTD
 - All of the different SUTD Pillars & Departments
-- [All of the stakeholders involved in the SUTD Human Library 2020](people.html)
+- [All of the stakeholders involved in the SUTD Human Library 2020](https://discover.opensutd.org/people.html)
 - The DiscoverSUTD 2019 Planning Team
 - OpenSUTD
