@@ -45,7 +45,7 @@ The DiscoverSUTD 2020 Organizing Committee:
 2. **Chua Jia Wei**
 3. [James Raphael Tiovalen](https://github.com/jamestiotio)
 4. [Kenneth Chin Choon Hean](https://github.com/UrFriendKen)
-5. Maryann Seah
+5. Seah Shien Maryann
 6. [Shoham Chakraborty](https://github.com/shohamc1)
 
 With immense support from Jia Xin of the SUTD Office of Student Life.
@@ -54,6 +54,6 @@ Our gratitude to these stakeholders as well:
 - All of the Fifth Rows & Interest Groups in SUTD
 - All of the Laboratories & Research Groups in SUTD
 - All of the different SUTD Pillars & Departments
-- [All of the stakeholders involved in the SUTD Human Library 2020](people.html)
+- [All of the stakeholders involved in the SUTD Human Library 2020](https://discover.opensutd.org/people.html)
 - The DiscoverSUTD 2019 Planning Team
 - OpenSUTD
