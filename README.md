@@ -45,7 +45,7 @@ The DiscoverSUTD 2020 Organizing Committee:
 2. **Chua Jia Wei**
 3. [James Raphael Tiovalen](https://github.com/jamestiotio)
 4. [Kenneth Chin Choon Hean](https://github.com/UrFriendKen)
-5. Maryann Seah
+5. Seah Shien Maryann
 6. [Shoham Chakraborty](https://github.com/shohamc1)
 
 With immense support from Jia Xin of the SUTD Office of Student Life.
