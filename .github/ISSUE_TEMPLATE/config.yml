@@ -1,0 +1,14 @@
+blank_issues_enabled: true
+contact_links:
+  - name: DiscoverSUTD Email
+    url: mailto:discover@sutd.edu.sg
+    about: Please preferably contact us here if you have any enquiries. Event-related questions are welcome here.
+  - name: SUTD Freshmore Reps' Email
+    url: mailto:freshmore@rep.sutd.edu.sg
+    about: Alternatively, you can also contact the Freshmore Reps here.
+  - name: Website Developer's Email
+    url: mailto:james_raphael@mymail.sutd.edu.sg
+    about: You can contact the main DiscoverSUTD website developer here. Technical questions are welcome here.
+  - name: Repository Maintainer's Telegram
+    url: https://t.me/jamestiotio
+    about: This is for a more informal conversation with James. (Sup?)
