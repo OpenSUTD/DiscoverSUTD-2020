@@ -48,7 +48,7 @@ The DiscoverSUTD 2020 Organizing Committee:
 5. Seah Shien Maryann
 6. [Shoham Chakraborty](https://github.com/shohamc1)
 
-With immense support from Jia Xin of the SUTD Office of Student Life.
+With immense support from Jia Xin of the SUTD Office of Student Administration.
 
 Our gratitude to these stakeholders as well:
 - All of the Fifth Rows & Interest Groups in SUTD
