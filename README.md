@@ -10,6 +10,8 @@ DiscoverSUTD is a 4-weeks long introduction to the SUTD community for the incomi
 
 DiscoverSUTD is organised by a team formed by the two SUTD Freshmore 2019 Reps, with assistance and guidance from the OpenSUTD team.
 
+It is a joint effort by more than a hundred SUTDents, faculty, researchers, staff and alumni, and collaboratively planned and executed on OpenSUTD.
+
 OpenSUTD is modelled after the idea of an Open Organisation and we have community standards for all members to abide by in order to ensure a good environment for members to learn and contribute effectively.
 
 ## Contributing
@@ -48,7 +50,7 @@ The DiscoverSUTD 2020 Organizing Committee:
 5. Seah Shien Maryann
 6. [Shoham Chakraborty](https://github.com/shohamc1)
 
-With immense support from Jia Xin of the SUTD Office of Student Administration.
+With immense support from Lim Jia Xin of the SUTD Office of Student Administration.
 
 Our gratitude to these stakeholders as well:
 - All of the Fifth Rows & Interest Groups in SUTD
