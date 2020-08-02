@@ -92,13 +92,24 @@
         <script type="text/javascript" src='assets/js/table.js'></script>
         <link rel="stylesheet" type="text/css" href="assets/css/calendar.css">
 
+        <style>
+            #pleaserotate-graphic{
+                fill: #000;
+            }
+
+            #pleaserotate-backdrop {
+                color: #000;
+                background-color: #fee0e0;
+            }
+        </style>
+
     </head>
 
     <body>
 
         <p><a href="https://discover.opensutd.org/">Return to Landing Page</a></p>
         <h1>DiscoverSUTD Event Calendar</h1>
-        <p>Note: Mandatory events are shaded in <span style="background-color:lightcoral;"><b>&nbsp;pink&nbsp;</b></span>.</p>
+        <p>NOTE: Mandatory events are shaded and highlighted in <span style="background-color:lightcoral;"><b>&nbsp;pink&nbsp;</b></span>.</p>
         <div id="calendar-goes-here"></div>
 
     </body>
@@ -120,5 +131,15 @@
             })
         }
     </script>
+
+    <script type="text/javascript">
+        var PleaseRotateOptions = {
+            onlyMobile: true,
+            forcePortrait: false,
+            message: "Please Rotate Your Device To See The Calendar Properly",
+            subMessage: "(or click/press the screen to continue anyway)"
+        }
+    </script>
+    <script src="assets/vendor/pleaserotate.min.js"></script>
 
 </html>
