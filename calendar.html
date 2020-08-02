@@ -104,13 +104,21 @@
     </body>
 
     <script type="text/javascript">
-        document.addEventListener('DOMContentLoaded', function () {
+        if (document.readyState !== 'loading') {
             Papa.parse("https://discover.opensutd.org/calendar.csv", {
                 download: true,
                 header: true,
                 complete: generateCalendar
             })
-        })
+        } else {
+            document.addEventListener('DOMContentLoaded', function () {
+                Papa.parse("https://discover.opensutd.org/calendar.csv", {
+                    download: true,
+                    header: true,
+                    complete: generateCalendar
+                })
+            })
+        }
     </script>
 
 </html>
