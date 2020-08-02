@@ -37,7 +37,7 @@ blockquote, q {
 }
 
 blockquote:before, blockquote:after, q:before, q:after {
-    content: '';
+    content: "";
     content: none;
 }
 
@@ -102,7 +102,7 @@ body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 
 body, input, select, textarea {
     color: #800000;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
     font-size: 15pt;
     font-weight: 300 !important;
     letter-spacing: -0.025em;
@@ -140,7 +140,7 @@ a:hover {
     text-rendering: auto;
     line-height: 1;
     text-transform: none !important;
-    font-family: 'Font Awesome 5 Pro';
+    font-family: "Font Awesome 5 Pro";
     font-weight: 400;
 }
 
@@ -153,7 +153,7 @@ a:hover {
 }
 
 .icon.brands:before {
-    font-family: 'Font Awesome 5 Brands';
+    font-family: "Font Awesome 5 Brands";
 }
 
 /* Wrapper */
@@ -223,7 +223,7 @@ a:hover {
 }
 
 #main:before {
-    content: '';
+    content: "";
     display: inline-block;
     height: 100%;
     margin-right: 0;
