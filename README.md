@@ -6,7 +6,7 @@ This repository hosts the microsite's source code for DiscoverSUTD 2020 and it a
 
 ## Introduction
 
-DiscoverSUTD is a 4-weeks long introduction to the SUTD community for the incoming Freshmores. It is estimated to be conducted on 13 September 2020 - 10 October 2020.
+DiscoverSUTD is a 3-weeks long introduction to the SUTD community for the incoming Freshmores. It is estimated to be conducted on 13 September 2020 - 10 October 2020.
 
 DiscoverSUTD is organised by a team formed by the two SUTD Freshmore 2019 Reps, with assistance and guidance from the OpenSUTD team.
 
