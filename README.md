@@ -34,7 +34,7 @@ Our objectives:
 The general workflow is as follows:
 
 1. Submit a proposal by issuing a GitHub Issue [here](https://github.com/OpenSUTD/DiscoverSUTD-2020/issues/new/choose). You are recommended to choose one of the Issue Templates provided there.
-2. Our custom Microsoft Power Automate [Flow](assets/planning/workflow.png) will be fired and our team will be notified of the issue via our main DiscoverSUTD email.
+2. Our custom Microsoft Power Automate [Flow](assets/planning/workflow.png) will be automatically fired and our team will be notified of the issue and its information via our main DiscoverSUTD group email.
 3. Someone from our team will reply to your issue and review it for approval.
 4. Once the details are reviewed and cleared, you will get a notification.
 5. Depending on whether you’re proposing a session for an event or making a suggestion for improvement, the workflow will then diverge and become tailored to the specific issue.
