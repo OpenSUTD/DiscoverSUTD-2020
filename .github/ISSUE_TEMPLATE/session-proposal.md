@@ -29,7 +29,7 @@ A short description of the highlights of your session in one or two sentences.
 
 **Session Details**
 
-Let us know the number of participants you can handle and where you intend to hold it. (If you need a venue, do let us know what sort of venue would be ideal to book.) If you have any constraints on the timing or any other matters, do specify them as well. If the session is conducted virtually on a video conferencing platform, do add the event's shareable URL/link.
+Let us know the number of participants you can handle and where you intend to hold it. (If you need a venue, do let us know what sort of venue would be ideal to book.) If you have any constraints on the timing or any other matters, do specify them as well. If the session is conducted virtually on an online video conferencing platform, do add the event's shareable URL/link.
 
 
 
@@ -41,6 +41,6 @@ Share with us the background of your facilitators to provide some context for yo
 
 **Logistical Details**
 
-Help us with the overall resourcing our events. This will give us some cues on as to how to budget for the event and if there are further constraints that we must consider.
+Help us with the overall resourcing of our events. This will give us some cues on as to how to budget for the event and if there are further constraints that we must consider.
 Please provide us with your club e-mail address so we can notify you once your event has been scheduled.
 If your event is on a sign-up basis, also include your sign-up form link here. Copy [this template](https://forms.office.com/Pages/ShareFormPage.aspx?id=drd2NJDpck-5UGJImDFiPbne1iyIR1hKtYGeiPHQbEBUM0JEN0xMN041VFBZOU1aSjRVTzlTMzBISi4u&sharetoken=TEsfn8upjgncvVX6vj8Y) to ensure consistent branding throughout DiscoverSUTD.
