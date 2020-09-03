@@ -60,7 +60,7 @@ For urgent matters and correspondences, you can try contacting the two Freshmore
 The DiscoverSUTD 2020 Organizing Committee:
 
 1. **Amelia Natasha Yeo Wen Ting**
-2. **Chua Jia Wei**
+2. [**Chua Jia Wei**](https://github.com/jiawei2912)
 3. [James Raphael Tiovalen](https://github.com/jamestiotio)
 4. [Kenneth Chin Choon Hean](https://github.com/UrFriendKen)
 5. Seah Shien Maryann
