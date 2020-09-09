@@ -194,13 +194,6 @@ body {
     background: #ffffff;
 }
 
-.container {
-  position: relative;
-  overflow: hidden;
-  width: 100%;
-  padding-top: 56.25%;
-}
-
 iframe {
     display: block;
     border-style: none;
@@ -2394,14 +2387,26 @@ input[type="radio"]+label:before {
 .icon:before {
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
-    font-family: "Font Awesome 5 Brands";
+    font-family: "Font Awesome 5 Pro";
     font-style: normal;
     font-weight: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
     text-transform: none !important;
+    color: #800000;
 }
 
 .icon>.label {
     display: none;
+}
+
+.icon.solid:before {
+    font-weight: 900;
+}
+
+.icon.brands:before {
+    font-family: "Font Awesome 5 Brands";
 }
 
 .icon.alt:before {
@@ -4230,7 +4235,7 @@ body.is-preload #banner>.inner {
 }
 
 body.is-ie #menu {
-    background: rgba(42, 47, 74, 0.975);
+    background: #d3d3d3;
 }
 
 body.is-menu-visible #wrapper {
@@ -4253,4 +4258,35 @@ body.is-menu-visible #menu .inner {
     transform: none;
     opacity: 1;
     visibility: visible;
+}
+
+grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 235px;
+    grid-gap: 15px;
+}
+
+grid-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 100%;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    padding: 2px 16px;
+    align-items: center;
+    justify-content: center;
 }
