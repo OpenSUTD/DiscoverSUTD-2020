@@ -4290,3 +4290,13 @@ grid-item {
     align-items: center;
     justify-content: center;
 }
+
+#supper-poster-container {
+    display: flex;
+    justify-content: center;
+}
+
+#supper-poster {
+    max-width: 75%;
+    align-self: flex-start;
+}
