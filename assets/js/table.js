@@ -43,7 +43,7 @@ function appendEvent( event ) {
     var eventStartDate = new Date(event.startdate)
     var eventEndDate   = new Date(event.enddate)
     console.log(event.url);
-    if (event.url.includes("events.html#sutd")) {
+    if (event.url.includes("events.html#mandatory")) {
         var eventElement   = $('<div class="event" style="background-color:lightcoral;"><a target="_blank" href="' + event.url + '">' + event.name + '</a></div>')
         } else if (event.url==="#") {
             var eventElement   = $('<div class="event"><a>' + event.name + '</a></div>')
