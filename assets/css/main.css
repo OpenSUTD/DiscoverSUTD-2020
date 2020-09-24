@@ -4273,6 +4273,28 @@ grid-item {
     justify-content: center;
 }
 
+wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 1em;
+}
+
+.box {
+    flex: 1 0 300px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.box-container {
+    display: flex;
+    flex-direction: column;
+    padding: 2px 16px;
+    align-items: center;
+    justify-content: center;
+    max-width: 300px;
+    margin: auto;
+}
+
 .card {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
@@ -4291,6 +4313,12 @@ grid-item {
     justify-content: center;
 }
 
+#speaker {
+    width: auto;
+    height: 200px;
+    margin-top: 20px;
+}
+
 #supper-poster-container {
     display: flex;
     justify-content: center;
@@ -4299,4 +4327,27 @@ grid-item {
 #supper-poster {
     max-width: 75%;
     align-self: flex-start;
+}
+
+#appendix-container {
+    display: flex;
+    justify-content: center;
+}
+
+#asd-laptop {
+    max-width: 75%;
+    align-self: flex-start;
+}
+
+#timeline td, #timeline th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#timeline tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#timeline tr:hover {
+    background-color: #ddd;
 }
