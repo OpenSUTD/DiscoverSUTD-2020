@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-144225776-4"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-144225776-4');
+        </script>
+
+        <!-- Browser/Platform Settings -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="skype_toolbar" content="skype_toolbar_parser_compatible">
+        <meta name="google" content="notranslate">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="default">
+        <meta name="renderer" content="webkit">
+        <meta name="x5-fullscreen" content="true">
+        <meta name="x5-page-mode" content="app">
+        <meta name="full-screen" content="yes">
+        <meta name="imagemode" content="force">
+        <meta name="browsermode" content="application">
+        <meta name="nightmode" content="disable">
+        <meta name="layoutmode" content="fitscreen">
+
+        <!-- Primary Meta Tags -->
+        <title>DiscoverSUTD 2020 - Pillar Talks Postmortem</title>
+        <meta name="title" content="DiscoverSUTD 2020 - Pillar Talks Postmortem">
+        <meta name="description" content="Postmortem for Pillar Talks 2020 Livestreams.">
+        <meta name="author" content="OpenSUTD">
+        <meta name="keywords" content="discover, sutd, discoversutd, freshmore, freshman, freshmen, introductory, introduction, new, experience">
+        <meta name="robots" content="follow">
+
+        <!-- Open Graph / Facebook -->
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://discover.opensutd.org/postmortem.html">
+        <meta property="og:title" content="DiscoverSUTD 2020 - Pillar Talks Postmortem">
+        <meta property="og:description" content="Postmortem for Pillar Talks 2020 Livestreams.">
+        <meta property="og:image" content="/assets/branding/discover.png">
+        <meta property="og:site_name" content="SUTD">
+
+        <!-- Twitter -->
+        <meta property="twitter:card" content="summary_large_image">
+        <meta property="twitter:url" content="https://discover.opensutd.org/postmortem.html">
+        <meta property="twitter:title" content="DiscoverSUTD 2020 - Pillar Talks Postmortem">
+        <meta property="twitter:description" content="Postmortem for Pillar Talks 2020 Livestreams.">
+        <meta property="twitter:image" content="/assets/branding/discover.png">
+
+        <!-- Favicon Package -->
+        <link rel="apple-touch-icon" sizes="180x180" href="/assets/media/favicons/apple-touch-icon.png">
+        <link rel="apple-touch-icon-precomposed" sizes="180x180" href="/assets/media/favicons/apple-touch-icon-precomposed.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/assets/media/favicons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="194x194" href="/assets/media/favicons/favicon-194x194.png">
+        <link rel="icon" type="image/png" sizes="192x192" href="/assets/media/favicons/android-chrome-192x192.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/assets/media/favicons/favicon-16x16.png">
+        <link rel="manifest" href="/assets/media/favicons/site.webmanifest">
+        <link rel="mask-icon" href="/assets/media/favicons/safari-pinned-tab.svg" color="#cc0000">
+        <link rel="shortcut icon" href="/assets/media/favicons/favicon.ico">
+        <meta name="apple-mobile-web-app-title" content="DiscoverSUTD">
+        <meta name="application-name" content="DiscoverSUTD">
+        <meta name="msapplication-TileColor" content="#cc0000">
+        <meta name="msapplication-TileImage" content="/assets/media/favicons/mstile-144x144.png">
+        <meta name="msapplication-config" content="/assets/media/favicons/browserconfig.xml">
+        <meta name="theme-color" content="#ffffff">
+
+        <!-- iOS Splashscreens Package -->
+        <link href="/assets/media/splashscreens/iphone5_splash.png" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+        <link href="/assets/media/splashscreens/iphone6_splash.png" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+        <link href="/assets/media/splashscreens/iphoneplus_splash.png" media="(device-width: 621px) and (device-height: 1104px) and (-webkit-device-pixel-ratio: 3)" rel="apple-touch-startup-image">
+        <link href="/assets/media/splashscreens/iphonex_splash.png" media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3)" rel="apple-touch-startup-image">
+        <link href="/assets/media/splashscreens/iphonexr_splash.png" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+        <link href="/assets/media/splashscreens/iphonexsmax_splash.png" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3)" rel="apple-touch-startup-image">
+        <link href="/assets/media/splashscreens/ipad_splash.png" media="(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+        <link href="/assets/media/splashscreens/ipadpro1_splash.png" media="(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+        <link href="/assets/media/splashscreens/ipadpro3_splash.png" media="(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+        <link href="/assets/media/splashscreens/ipadpro2_splash.png" media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+
+        <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
+        <noscript><link rel="stylesheet" type="text/css" href="/assets/css/noscript.css"></noscript>
+
+    </head>
+
+    <body class="is-preload">
+
+        <div id="wrapper">
+
+            <header id="header">
+                <nav>
+                    <a href="#menu">Menu</a>
+                </nav>
+            </header>
+
+            <nav id="menu">
+                <ul class="links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#introduction">Introduction</a></li>
+                    <li><a href="#timeline">Timeline</a></li>
+                    <li><a href="#mitigating-actions">Mitigating Actions</a></li>
+                    <li><a href="#resolution">Resolution</a></li>
+                    <li><a href="#lessons">Lessons</a></li>
+                    <li><a href="#appendix">Appendix</a></li>
+                </ul>
+            </nav>
+
+            <div id="main" class="alt padded-top">
+
+                <div class="inner">
+                    <header class="major">
+                        <h3 class="section-sep" id="postmortem">Pillar Talks Post-Mortem</h3>
+                    </header>
+                </div>
+
+                <!--Section Start-->
+                <section>
+                    <div class="inner">
+                        <header class="major">
+                            <h1 id="introduction">Introduction</h1>
+                        </header>
+                        <p>Dear respected staff, faculty members and Class of 2024 undergraduate students,<br><br>
+
+                            I am James from the DiscoverSUTD 2020 Organizing Committee, and we would like to sincerely apologise for the technical difficulties that were experienced during the Pillar Talks for DiscoverSUTD 2020 on 17 September 2020. Pillar selection is an important decision for Freshmores and hence we think that an adequate post-mortem is necessary and to highlight next steps.
+                        </p>
+                        <header class="major">
+                            <h1 id="timeline">Timeline</h1>
+                        </header>
+                        <table style="width:100%;" id="timeline">
+                            <tr>
+                                <th>Time (hrs)</th>
+                                <th>Activities</th>
+                                <th>Situation</th>
+                            </tr>
+                            <tr>
+                                <td>1300</td>
+                                <td>Kenneth and James set up the main laptop for MS Stream for ASD, EPD and ISTD. 3 laptops were borrowed from IT Service Desk with Microsoft Teams and Streamlabs OBS. A desktop and a mobile are used to monitor the stream from a Freshmore’s perspective.</td>
+                                <td><em>Not applicable.</em></td>
+                            </tr>
+                            <tr>
+                                <td>1350</td>
+                                <td>ASD and EPD livestreams began. ISTD livestream was not started due to audio issue for one faculty member.</td>
+                                <td>ASD and EPD livestreams were received intermittently.</td>
+                            </tr>
+                            <tr>
+                                <td>1410</td>
+                                <td>Decision was made to switch to recording instead. Pillar Heads and Faculty Members involved in the Pillar Talks were informed. EPD’s sli.do code was received.</td>
+                                <td>Freshmores were informed via the Telegram AMA. However not all Freshmores were in the group. They were informed via email as well.</td>
+                            </tr>
+                            <tr>
+                                <td>1422</td>
+                                <td>EPD’s sli.do code was included in the page which was hosted on GitHub (<a href="https://github.com/OpenSUTD/DiscoverSUTD-2020/commit/34cc3ce566299cfd7cec431e3056b3e4095505f2" target="_blank" rel="noopener noreferrer">34cc3ce</a>).</td>
+                                <td>It took some time for the page to update and thus sli.do was not immediately available.</td>
+                            </tr>
+                        </table>
+                        <header class="major">
+                            <h1 id="mitigating-actions">Mitigating Actions</h1>
+                        </header>
+                        <p style="text-decoration: underline;">Deciding on the streaming provider</p>
+                        <ol type="1" start="1">
+                            <li>Livestreams (and uploading the Fifth Row Showcase videos as well) need to be conducted in a closed manner. This would mean that a login wall is required. An unlisted video on YouTube, for example, would not suffice since anyone in the public would still be able to view the embedded version on the DiscoverSUTD website. Microsoft Stream provides an easy integration to this since SUTD’s email accounts are managed on the Microsoft Outlook platform.</li>
+                            <li>Video conferencing allow all users to speak. MS Teams allow meeting organizers to mute all participants. However, participants are able to unmute themselves.</li>
+                            <li>Teams meetings allow for people to join via invite links, including members of the public. Since the event is targeted at Freshmores, we do not want people who are not involved hopping in and out, disrupting the event. Although there are permissions allow people to either bypass the lobby or be required to wait to be admitted, it is logistically taxing to check whether the participant is invited or not.</li>
+                            <li>Video conferencing requires sign-ups. This allows for the organizer to send out invite links. Since we are not limited by space in a virtual event, as compared to a physical event due to COVID-19 safe-distancing measures, an unlimited number of students can attend the talk. However, sign ups create an unnecessary hassle.</li>
+                            <li>Unlike classes where participants are limited and are mandated to join the lesson, we think livestreams provide us with the control for events where the target audience is constrained but participation count is not pre-determined. Freshmores are able to join in if they decide to do so at the last minute and disruption to the event is minimized, especially for an online event. The login requirement for MS Stream also prevents public viewing of the livestream.</li>
+                        </ol>
+                        <p><em>However, considering that Microsoft Stream was fairly untested for larger sizes, it was hard to tell if it would successfully execute the pillar talks. The features of integrating this to Freshmore e-mails would also aid in the management of the event.</em></p>
+                        <p style="text-decoration: underline;">IT testing</p>
+                        <p>This format was tested twice:</p>
+                        <ul>
+                            <li>7 September 2020, 1255hrs – 1700hrs: 4 livestreams ran concurrently from our respective homes  and we streamed from our own personal laptops. No issues with streams.</li>
+                            <li>14 September 2020, 2255hrs – 0030hrs (of the next day): We conducted this in SUTD Hostel’s Block 55 Quiet Study Room, utilizing both SUTD_Wifi and the loaned laptops from IT. We encountered some minor hiccups but we managed to livestream from 4 out of the 5 loaned laptops, 3 of which we used for the actual Pillar Talks.</li>
+                        </ul>
+                        <p><em>Therefore, the team evaluated that this format would probably work on the actual day. What was not accounted for was that traffic would be at least x50 times more. Yet, this cannot be adequately simulated.</em></p>
+                        <p style="text-decoration: underline;">Recordings</p>
+                        <p>In order to preserve the Pillar Talks, the livestreams were recorded.</p>
+                        <ul>
+                            <li>ASD: laptop crashed and laptop could no longer be switched on. See <em>Appendix</em> for images.</li>
+                            <li>EPD: recording was only saved 40 minutes into the talk.</li>
+                            <li>ISTD: no issue.</li>
+                        </ul>
+                        <p><em>There was too much reliance on a single source of the recording. However, considering that the stream did not work, another laptop could not have recorded concurrently either.</em></p>
+                        <header class="major">
+                            <h1 id="resolution">Resolution</h1>
+                        </header>
+                        <p>The following actions are done in consultation with the respective Pillars:</p>
+                        <ul>
+                            <li>ASD: we will be uploading a recording of ASD’s previous outreach event during Singapore Virtual University Fair (original source from <a href="https://youtu.be/LSTBfbOL9Dk" target="_blank" rel="noopener noreferrer">here</a>). Even though the target audience is different, the essentials of a more in-depth introduction of Architecture as a study and career are still there.</li>
+                            <li>EPD: we will be uploading a “simulated recording” of the actual talk. Since we have the audio intact, we will recreate the recording using the slides that EPD has prepared for the Pillar Talk. We would also provide a list of the presenters on the website under the EPD’s recording section, with hyperlinks directing to their respective profiles on SUTD’s website.</li>
+                        </ul>
+                        <header class="major">
+                            <h1 id="lessons">Lessons</h1>
+                        </header>
+                        <ol type="1" start="1">
+                            <li>Utilise Zoom as it has proven to be a much more reliable format. However, signups will have to be gated. The Zoom Webinar feature will suffice and can hold up to 100 participants but a subscription is required.</li>
+                            <li>Better contingency planning in the event of stream failures could have been done.</li>
+                            <li>All material and preparation should be done on the day before including the submission of sli.do link and presentation slides for Pillar Talks so that Freshmores can still get the information to be disseminated.</li>
+                        </ol>
+                        <p>Once again, I would like to sincerely apologize for the technical difficulties that were faced. We seek your kind understanding on the matter and hope to grow from this experience together.<br><br>
+
+                            Thank you.<br><br>
+
+                            James Raphael Tiovalen<br>
+                            <em>On behalf of the DiscoverSUTD 2020 Organizing Committee</em>
+                        </p>
+                        <header class="major">
+                            <h1 id="appendix">Appendix</h1>
+                        </header>
+                        <br>
+                        <div id="appendix-container"><img id="asd-laptop" src="assets/media/images/bootdevice_error.jpg"></div>
+                        <br>
+                        <div id="appendix-container"><img id="asd-laptop" src="assets/media/images/bootmgr_error.jpg"></div>
+                    </div>
+                </section>
+                <!--Section End-->
+
+                <hr>
+
+                <!--Section Start-->
+                <section id="footer">
+                    <div class="inner">
+                        <header class="major">
+                            <h2>About DiscoverSUTD</h2>
+                        </header>
+                        <p>DiscoverSUTD is a 3-weeks long introduction to the SUTD community for the incoming Freshmores. It is organised by a team formed by the two SUTD Freshmore 2019 Reps, with assistance and guidance from the OpenSUTD team. It is a joint effort by more than a hundred SUTDents, faculty, researchers, staff and alumni, and collaboratively planned and executed on <b>OpenSUTD</b>, an open organisation owned by the SUTD community.</p>
+                        <ul class="actions">
+                            <li><a href="https://github.com/OpenSUTD/DiscoverSUTD-2020" target="_blank" rel="noopener noreferrer" class="button next"><i class="icon brands fa-github" aria-hidden="true"></i>The DiscoverSUTD Team</a></li>
+                        </ul>
+                        <br>
+                    </div>
+                </section>
+                <!--Section End-->
+
+            </div>
+        </div>
+
+        <script src="assets/vendor/jquery/jquery-3.5.1.min.js"></script>
+        <script src="assets/vendor/jquery.scrolly.min.js"></script>
+        <script src="assets/vendor/jquery.scrollex.min.js"></script>
+        <script src="assets/vendor/browser.min.js"></script>
+        <script src="assets/vendor/breakpoints.min.js"></script>
+        <script src="assets/js/util.js"></script>
+        <script src="assets/js/main.js"></script>
+
+    </body>
+
+<!--
+Psst. Hey you. Yes, you.
+Curious chap, aren't you? You might be a good fit to join us!
+Join the OpenSUTD Telegram Group at https://t.me/joinchat/C8HJABJqfwYEPoT4EYre-A
+We're growing our team so that we can continue to do things for the SUTD community!
+-->
+</html>
