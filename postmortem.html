@@ -106,6 +106,7 @@
                     <li><a href="index.html">Home</a></li>
                     <li><a href="#introduction">Introduction</a></li>
                     <li><a href="#timeline">Timeline</a></li>
+                    <li><a href="#possible-causes">Possible Causes</a></li>
                     <li><a href="#mitigating-actions">Mitigating Actions</a></li>
                     <li><a href="#resolution">Resolution</a></li>
                     <li><a href="#lessons">Lessons</a></li>
@@ -131,6 +132,7 @@
 
                             I am James from the DiscoverSUTD 2020 Organizing Committee, and we would like to sincerely apologise for the technical difficulties that were experienced during the Pillar Talks for DiscoverSUTD 2020 on 17 September 2020. Pillar selection is an important decision for Freshmores and hence we think that an adequate post-mortem is necessary and to highlight next steps.
                         </p>
+                        <p><em><b>NOTE</b>: ESD is unaffected by this incident since they utilized their own Zoom Meeting for their Pillar Talk. This is due to the need to facilitate discussion during their logistics games in a video-call style.</em></p>
                         <header class="major">
                             <h1 id="timeline">Timeline</h1>
                         </header>
@@ -142,7 +144,7 @@
                             </tr>
                             <tr>
                                 <td>1300</td>
-                                <td>Kenneth and James set up the main laptop for MS Stream for ASD, EPD and ISTD. 3 laptops were borrowed from IT Service Desk with Microsoft Teams and Streamlabs OBS. A desktop and a mobile are used to monitor the stream from a Freshmore’s perspective.</td>
+                                <td>Kenneth and James set up the main laptop for Microsoft Stream for ASD, EPD and ISTD. 3 laptops were borrowed from IT Service Desk with Microsoft Teams and Streamlabs OBS. A desktop and a mobile are used to monitor the stream from a Freshmore’s perspective.</td>
                                 <td><em>Not applicable.</em></td>
                             </tr>
                             <tr>
@@ -152,40 +154,49 @@
                             </tr>
                             <tr>
                                 <td>1410</td>
-                                <td>Decision was made to switch to recording instead. Pillar Heads and Faculty Members involved in the Pillar Talks were informed. EPD’s sli.do code was received.</td>
+                                <td>Decision was made to switch to recording instead. Pillar Heads and Faculty Members involved in the Pillar Talks were informed. EPD’s <em>sli.do</em> code was received.</td>
                                 <td>Freshmores were informed via the Telegram AMA. However not all Freshmores were in the group. They were informed via email as well.</td>
                             </tr>
                             <tr>
                                 <td>1422</td>
-                                <td>EPD’s sli.do code was included in the page which was hosted on GitHub (<a href="https://github.com/OpenSUTD/DiscoverSUTD-2020/commit/34cc3ce566299cfd7cec431e3056b3e4095505f2" target="_blank" rel="noopener noreferrer">34cc3ce</a>).</td>
-                                <td>It took some time for the page to update and thus sli.do was not immediately available.</td>
+                                <td>EPD’s <em>sli.do</em> code was included in the page which was hosted on GitHub (<a href="https://github.com/OpenSUTD/DiscoverSUTD-2020/commit/34cc3ce566299cfd7cec431e3056b3e4095505f2" target="_blank" rel="noopener noreferrer">34cc3ce</a>).</td>
+                                <td>It took some time for the page to update and thus <em>sli.do</em> was not immediately available.</td>
                             </tr>
                         </table>
+                        <header class="major">
+                            <h1 id="possible-causes">Possible Causes</h1>
+                        </header>
+                        <p>While we are still unable to exactly pinpoint the root cause due to the sheer scale of the livestreams (and all the different parts that were involved), we have identified 3 possible points of failure ordered from the most likely to the least:</p>
+                        <ol type="1" start="1">
+                            <li>The 3 laptops borrowed from IT Service Desk. We have been granted administrator access to all of the loaned laptops, but even then, it's evident that some of the laptops are partially faulty. Some networking misconfiguration might have caused local connection issues. As evident from a post-incident network investigation by Registrar and SUTD's IT team, no issues related to the school network were identified.</li>
+                            <li>SUTD_Wifi. Most of the Freshmores were staying at SUTD Hostel during the Pillar Talks (17 September 2020, 1400hrs – 1600hrs). Having 400+ Freshmore students watching 3 concurrent livestreams on the same website page might have squeezed out the bandwidth of SUTD’s WiFi service. Case in point, people have reported slow network access during Hostel Briefing and also during the Pillar Talks. I was also unable to view the Hostel Briefing live on my mobile device using SUTD’s WiFi. When I switched over to use my cellular data instead, I was able to view the Hostel Briefing live (albeit with the inevitable 45-seconds lag, but with no error).</li>
+                            <li>The Microsoft Stream’s server (and to an extent, my Microsoft Stream account). Again, due to the scale of the livestreams (400+ students, 3 concurrent livestreams), my account could have potentially been rate-limited heavily, and hence data might not have been received in the smoothest way possible. However, this is quite unlikely since I have requested permission from IT Service Desk for the “Live Event” feature to be enabled for my account. Secondly, based on <a href="https://docs.microsoft.com/en-us/stream/live-event-overview" target="_blank" rel="noopener noreferrer">this documentation page</a>, the limit is much higher than what we had (10000 concurrent viewers, 15 concurrent livestreams and 4 hours maximum length per broadcast). In fact, as outlined <a href="https://techcommunity.microsoft.com/t5/microsoft-teams-blog/what-s-new-in-microsoft-teams-april-2020/ba-p/1347929" target="_blank" rel="noopener noreferrer">here</a>, the limit was actually temporarily raised to accommodate 20000 concurrent viewers, 50 concurrent livestreams and 16 hours maximum length per broadcast, due to the COVID-19 situation.</li>
+                        </ol>
                         <header class="major">
                             <h1 id="mitigating-actions">Mitigating Actions</h1>
                         </header>
                         <p style="text-decoration: underline;">Deciding on the streaming provider</p>
                         <ol type="1" start="1">
                             <li>Livestreams (and uploading the Fifth Row Showcase videos as well) need to be conducted in a closed manner. This would mean that a login wall is required. An unlisted video on YouTube, for example, would not suffice since anyone in the public would still be able to view the embedded version on the DiscoverSUTD website. Microsoft Stream provides an easy integration to this since SUTD’s email accounts are managed on the Microsoft Outlook platform.</li>
-                            <li>Video conferencing allow all users to speak. MS Teams allow meeting organizers to mute all participants. However, participants are able to unmute themselves.</li>
+                            <li>Video conferencing allow all users to speak. Microsoft Teams allow meeting organizers to mute all participants. However, participants are able to unmute themselves.</li>
                             <li>Teams meetings allow for people to join via invite links, including members of the public. Since the event is targeted at Freshmores, we do not want people who are not involved hopping in and out, disrupting the event. Although there are permissions allow people to either bypass the lobby or be required to wait to be admitted, it is logistically taxing to check whether the participant is invited or not.</li>
                             <li>Video conferencing requires sign-ups. This allows for the organizer to send out invite links. Since we are not limited by space in a virtual event, as compared to a physical event due to COVID-19 safe-distancing measures, an unlimited number of students can attend the talk. However, sign ups create an unnecessary hassle.</li>
-                            <li>Unlike classes where participants are limited and are mandated to join the lesson, we think livestreams provide us with the control for events where the target audience is constrained but participation count is not pre-determined. Freshmores are able to join in if they decide to do so at the last minute and disruption to the event is minimized, especially for an online event. The login requirement for MS Stream also prevents public viewing of the livestream.</li>
+                            <li>Unlike classes where participants are limited and are mandated to join the lesson, we think livestreams provide us with the control for events where the target audience is constrained but participation count is not pre-determined. Freshmores are able to join in if they decide to do so at the last minute and disruption to the event is minimized, especially for an online event. The login requirement for Microsoft Stream also prevents public viewing of the livestream.</li>
                         </ol>
                         <p><em>However, considering that Microsoft Stream was fairly untested for larger sizes, it was hard to tell if it would successfully execute the pillar talks. The features of integrating this to Freshmore e-mails would also aid in the management of the event.</em></p>
                         <p style="text-decoration: underline;">IT testing</p>
                         <p>This format was tested twice:</p>
                         <ul>
-                            <li>7 September 2020, 1255hrs – 1700hrs: 4 livestreams ran concurrently from our respective homes  and we streamed from our own personal laptops. No issues with streams.</li>
+                            <li>7 September 2020, 1255hrs – 1700hrs: 4 livestreams ran concurrently from our respective homes and we streamed from our own personal laptops. No issues with streams.</li>
                             <li>14 September 2020, 2255hrs – 0030hrs (of the next day): We conducted this in SUTD Hostel’s Block 55 Quiet Study Room, utilizing both SUTD_Wifi and the loaned laptops from IT. We encountered some minor hiccups but we managed to livestream from 4 out of the 5 loaned laptops, 3 of which we used for the actual Pillar Talks.</li>
                         </ul>
                         <p><em>Therefore, the team evaluated that this format would probably work on the actual day. What was not accounted for was that traffic would be at least x50 times more. Yet, this cannot be adequately simulated.</em></p>
                         <p style="text-decoration: underline;">Recordings</p>
                         <p>In order to preserve the Pillar Talks, the livestreams were recorded.</p>
                         <ul>
-                            <li>ASD: laptop crashed and laptop could no longer be switched on. See <em>Appendix</em> for images.</li>
-                            <li>EPD: recording was only saved 40 minutes into the talk.</li>
-                            <li>ISTD: no issue.</li>
+                            <li>ASD: No file was created and laptop did not visually respond to pressing the stop recording button. After leaving it for ~1.5 hrs post-event with the recording still running, a MP4 file was created and started filling with data. We left it to fill for about 30 mins when it crashed and could no longer be switched on. See <a href="#appendix" target="_self" rel="noopener noreferrer"><em>Appendix</em></a> for images. Trying to navigate to boot device manually resulted in no hard disk found. Computer stayed non-functional until the next morning, showing the same screen. Miraculously at 1125hrs before returning the laptop, we tried to start it and it booted to Windows. Recording was not saved.</li>
+                            <li>EPD: Recording was only saved 40 minutes into the talk and started to fill with data at ~1MB every 2 mins. Left the laptop running overnight and file completed and saved at 0428hrs next day. Total duration to save ~13 hrs. Final file size is 503MB. Audio was fully intact, but only the top-left quarter of the video was intact.</li>
+                            <li>ISTD: No issues, i.e. MP4 file was created at the start of recording and immediately finished processing upon pressing stop recording.</li>
                         </ul>
                         <p><em>There was too much reliance on a single source of the recording. However, considering that the stream did not work, another laptop could not have recorded concurrently either.</em></p>
                         <header class="major">
@@ -193,16 +204,17 @@
                         </header>
                         <p>The following actions are done in consultation with the respective Pillars:</p>
                         <ul>
-                            <li>ASD: we will be uploading a recording of ASD’s previous outreach event during Singapore Virtual University Fair (original source from <a href="https://youtu.be/LSTBfbOL9Dk" target="_blank" rel="noopener noreferrer">here</a>). Even though the target audience is different, the essentials of a more in-depth introduction of Architecture as a study and career are still there.</li>
-                            <li>EPD: we will be uploading a “simulated recording” of the actual talk. Since we have the audio intact, we will recreate the recording using the slides that EPD has prepared for the Pillar Talk. We would also provide a list of the presenters on the website under the EPD’s recording section, with hyperlinks directing to their respective profiles on SUTD’s website.</li>
+                            <li>ASD: We will be uploading a recording of ASD’s previous outreach event during Singapore Virtual University Fair (original source from <a href="https://youtu.be/LSTBfbOL9Dk" target="_blank" rel="noopener noreferrer">here</a>). Even though the target audience is different, the essentials of a more in-depth introduction of Architecture as a study and career are still there.</li>
+                            <li>EPD: We will be uploading a “simulated recording” of the actual talk. Since we have the audio intact, we will recreate the recording using the slides that EPD has prepared for the Pillar Talk. We would also provide a list of the presenters on the website under the EPD’s recording section, with hyperlinks directing to their respective profiles on SUTD’s website.</li>
                         </ul>
                         <header class="major">
                             <h1 id="lessons">Lessons</h1>
                         </header>
                         <ol type="1" start="1">
-                            <li>Utilise Zoom as it has proven to be a much more reliable format. However, signups will have to be gated. The Zoom Webinar feature will suffice and can hold up to 100 participants but a subscription is required.</li>
+                            <li>Utilise Zoom as it has proven to be a much more reliable format. However, signups will have to be gated. The Zoom Webinar feature will suffice and can hold up to 100 participants but a subscription is required. Holding up to 500 participants would require a Zoom Enterprise account. Alternatively, we can also use Microsoft Teams Live Event or implement an <a href="https://docs.microsoft.com/en-us/stream/ecdn" target="_blank" rel="noopener noreferrer">eCDN</a> for the livestreams.</li>
+                            <li>Staggering the timings of the Pillar Talks.</li>
                             <li>Better contingency planning in the event of stream failures could have been done.</li>
-                            <li>All material and preparation should be done on the day before including the submission of sli.do link and presentation slides for Pillar Talks so that Freshmores can still get the information to be disseminated.</li>
+                            <li>All material and preparation should be done on the day before including the submission of <em>sli.do</em> link and presentation slides for Pillar Talks so that Freshmores can still get the information to be disseminated.</li>
                         </ol>
                         <p>Once again, I would like to sincerely apologize for the technical difficulties that were faced. We seek your kind understanding on the matter and hope to grow from this experience together.<br><br>
 
@@ -215,6 +227,7 @@
                             <h1 id="appendix">Appendix</h1>
                         </header>
                         <br>
+                        <p>These are some photos of the laptop used for the ASD livestream. A Blue Screen of Death (BSoD) was encountered before it manifested these corresponding displays (we did not manage to record the BSoD's error code). As seen in the pictures, it encountered a BootDevice error and a BOOTMGR Image error.</p><br>
                         <div id="appendix-container"><img id="asd-laptop" src="assets/media/images/bootdevice_error.jpg"></div>
                         <br>
                         <div id="appendix-container"><img id="asd-laptop" src="assets/media/images/bootmgr_error.jpg"></div>
