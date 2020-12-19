@@ -395,6 +395,17 @@ div>p {
     font-weight: lighter !important;
 }
 
+@media screen and (min-width: 1681px) {
+
+    body,
+    input,
+    select,
+    textarea {
+        font-size: 16pt;
+    }
+
+}
+
 @media screen and (max-width: 1680px) {
 
     body,
@@ -4265,6 +4276,15 @@ grid-container {
     grid-template-columns: 1fr 1fr;
     grid-auto-rows: 235px;
     grid-gap: 15px;
+}
+
+@media screen and (min-width: 1681px) {
+
+    grid-container {
+        grid-auto-rows: 250px;
+        grid-gap: 50px;
+    }
+
 }
 
 grid-item {
