@@ -395,13 +395,46 @@ div>p {
     font-weight: lighter !important;
 }
 
-@media screen and (min-width: 1681px) {
+@media screen and (min-width: 8641px) {
 
     body,
     input,
     select,
     textarea {
-        font-size: 16pt;
+        font-size: 96pt;
+    }
+
+}
+
+@media screen and (max-width: 8640px) {
+
+    body,
+    input,
+    select,
+    textarea {
+        font-size: 64pt;
+    }
+
+}
+
+@media screen and (max-width: 4320px) {
+
+    body,
+    input,
+    select,
+    textarea {
+        font-size: 40pt;
+    }
+
+}
+
+@media screen and (max-width: 2160px) {
+
+    body,
+    input,
+    select,
+    textarea {
+        font-size: 24pt;
     }
 
 }
@@ -412,7 +445,7 @@ div>p {
     input,
     select,
     textarea {
-        font-size: 14pt;
+        font-size: 16pt;
     }
 
 }
@@ -4278,7 +4311,43 @@ grid-container {
     grid-gap: 15px;
 }
 
-@media screen and (min-width: 1681px) {
+@media screen and (min-width: 8641px) {
+
+    grid-container {
+        grid-auto-rows: 1000px;
+        grid-gap: 750px;
+    }
+
+}
+
+@media screen and (max-width: 8640px) {
+
+    grid-container {
+        grid-auto-rows: 800px;
+        grid-gap: 400px;
+    }
+
+}
+
+@media screen and (max-width: 4320px) {
+
+    grid-container {
+        grid-auto-rows: 500px;
+        grid-gap: 200px;
+    }
+
+}
+
+@media screen and (max-width: 2160px) {
+
+    grid-container {
+        grid-auto-rows: 350px;
+        grid-gap: 100px;
+    }
+
+}
+
+@media screen and (max-width: 1680px) {
 
     grid-container {
         grid-auto-rows: 250px;
