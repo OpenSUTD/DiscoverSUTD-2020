@@ -51,7 +51,7 @@
     ],
     "theme_color": "#ffffff",
     "background_color": "#ffffff",
-    "start_url": "https://discover.opensutd.org/",
+    "start_url": "https://opensutd.org/DiscoverSUTD-2020/",
     "display": "standalone",
     "scope": "/"
 }
