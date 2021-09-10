@@ -41,7 +41,7 @@ The general workflow is as follows:
 
 ## Timeline
 
-Check the [DiscoverSUTD calendar](https://discover.opensutd.org/calendar.html) for the latest timeline of compulsory events for the incoming SUTD Freshmores.
+Check the [DiscoverSUTD calendar](https://opensutd.org/DiscoverSUTD-2020/calendar.html) for the latest timeline of compulsory events for the incoming SUTD Freshmores.
 
 This timeline is to assist Fifth Row leaders for planning purposes. Ensure that your event's timing/venue does not clash with the compulsory events or with another existing event in the calendar. Due to the current COVID-19 situation, arrangements might be more volatile, uncertain and fluctuating, so please take note of any possible last-minute changes! All latest updates will be reflected in this repository.
 
@@ -72,6 +72,6 @@ Our gratitude to these stakeholders as well:
 - All of the Fifth Rows & Interest Groups in SUTD
 - All of the Laboratories & Research Groups in SUTD
 - All of the different SUTD Pillars & Departments
-- [All of the stakeholders involved in the SUTD Human Library 2020](https://discover.opensutd.org/people.html)
+- [All of the stakeholders involved in the SUTD Human Library 2020](https://opensutd.org/DiscoverSUTD-2020/people.html)
 - The DiscoverSUTD 2019 Planning Team
 - OpenSUTD

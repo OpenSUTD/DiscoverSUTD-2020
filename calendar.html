@@ -44,7 +44,7 @@
 
         <!-- Open Graph / Facebook -->
         <meta property="og:type" content="website">
-        <meta property="og:url" content="https://discover.opensutd.org/calendar.html">
+        <meta property="og:url" content="https://opensutd.org/DiscoverSUTD-2020/calendar.html">
         <meta property="og:title" content="DiscoverSUTD 2020 - Calendar">
         <meta property="og:description" content="Event Calendar Guide for Freshmores!">
         <meta property="og:image" content="/assets/branding/discover.png">
@@ -52,7 +52,7 @@
 
         <!-- Twitter -->
         <meta property="twitter:card" content="summary_large_image">
-        <meta property="twitter:url" content="https://discover.opensutd.org/calendar.html">
+        <meta property="twitter:url" content="https://opensutd.org/DiscoverSUTD-2020/calendar.html">
         <meta property="twitter:title" content="DiscoverSUTD 2020 - Calendar">
         <meta property="twitter:description" content="Event Calendar Guide for Freshmores!">
         <meta property="twitter:image" content="/assets/branding/discover.png">
@@ -107,7 +107,7 @@
 
     <body>
 
-        <p><a href="https://discover.opensutd.org/">Return to Landing Page</a></p>
+        <p><a href="https://opensutd.org/DiscoverSUTD-2020/">Return to Landing Page</a></p>
         <h1>DiscoverSUTD Event Calendar</h1>
         <p>NOTE: Mandatory events are shaded and highlighted in <span style="background-color:lightcoral;"><b>&nbsp;pink&nbsp;</b></span>.</p>
         <div id="calendar-goes-here"></div>
@@ -116,14 +116,14 @@
 
     <script type="text/javascript">
         if (document.readyState !== 'loading') {
-            Papa.parse("https://discover.opensutd.org/calendar.csv", {
+            Papa.parse("https://opensutd.org/DiscoverSUTD-2020/calendar.csv", {
                 download: true,
                 header: true,
                 complete: generateCalendar
             })
         } else {
             document.addEventListener('DOMContentLoaded', function () {
-                Papa.parse("https://discover.opensutd.org/calendar.csv", {
+                Papa.parse("https://opensutd.org/DiscoverSUTD-2020/calendar.csv", {
                     download: true,
                     header: true,
                     complete: generateCalendar
